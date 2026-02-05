@@ -40,3 +40,9 @@ print(cars)
 # We can use the sort function to sort the items in a list in alphabetical order.
 cars.sort(reverse=True) 
 print(cars)
+
+del cars[1]
+print(cars)
+
+cars.pop(0)
+print(cars)
