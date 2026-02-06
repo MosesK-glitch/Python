@@ -16,7 +16,8 @@ print(type(phonebook))
 student = {
     "name": "John Doe",
     "age": 21,
-    "courses": ["Math", "Science", "History"]
+    "courses": ["Math", "Science", "History"],
+    "info": "Student at XYZ University"
 }
 print(student)
 print(type(student))
